@@ -1,9 +1,10 @@
+import java.io.File;
 
 public class FinalResult {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Comparator comp = new Comparator();
+		comp.compareAndDraw(new File("image1.png"), new File("image2.png"));
 	}
-
 }
